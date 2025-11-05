@@ -53,7 +53,7 @@ export function Logo({ className = "", size = "md", animated = true }: LogoProps
         pathLength: {
           delay: 0.3 + i * 0.1,
           duration: 0.8,
-          ease: "easeInOut"
+          ease: "easeInOut" as const
         },
         opacity: {
           delay: 0.3 + i * 0.1,

@@ -24,7 +24,7 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(
             scale: 1.02,
             transition: { duration: 0.2 }
           } : undefined}
-          {...props}
+          {...(props as any)}
         >
           {children}
         </motion.div>

@@ -73,7 +73,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         className={cn(baseStyles, variants[variant], sizes[size], className)}
         ref={ref as any}
         {...motionProps}
-        {...props}
+        {...(props as any)}
       >
         {rippleEffect}
         <span className="relative z-10">{children}</span>
