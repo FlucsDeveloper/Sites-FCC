@@ -35,7 +35,7 @@ export function Logo({ className = "", size = "md", animated = true }: LogoProps
       rotate: 0,
       transition: {
         duration: 0.8,
-        ease: [0.6, 0.05, 0.01, 0.9],
+        ease: [0.6, 0.05, 0.01, 0.9] as [number, number, number, number],
         staggerChildren: 0.1
       }
     }
