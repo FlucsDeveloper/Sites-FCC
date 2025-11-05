@@ -70,7 +70,7 @@ export function Logo({ className = "", size = "md", animated = true }: LogoProps
       transition: {
         duration: 2,
         repeat: Infinity,
-        ease: "easeInOut"
+        ease: "easeInOut" as const
       }
     }
   };
