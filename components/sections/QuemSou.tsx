@@ -17,6 +17,9 @@ export function QuemSou() {
               <p>
                 Sou <strong className="text-navy">Felipe Caltabiano Castro</strong>, criador da FCC Sites.
               </p>
+              <p className="text-base text-textDark/70">
+                CPF: 416.645.638-57
+              </p>
               <p>
                 Acredito que um site precisa unir estética, clareza e desempenho.
               </p>
